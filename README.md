@@ -62,6 +62,8 @@ word.replace(/[^\w]/g, "").toLowerCase();
   - ELSE
     - Add it to 'result'
 
+---
+
 ## Printing Steps
 
 ### First solution (recommended in interview setting):
@@ -84,10 +86,14 @@ word.replace(/[^\w]/g, "").toLowerCase();
 - Check the base case. Is there any work left to do? If not, return
 - Do some work. Call your function again, making sure the arguments have changed in some fashion
 
+---
+
 ## Pyramid
 
 - Should use a very similar algorithm to the Steps problem, just changing the bounds
 - Equation for finding the midpoint of the array = (2 \* n - 1) / 2
+
+---
 
 ## Vowels
 
@@ -97,6 +103,8 @@ word.replace(/[^\w]/g, "").toLowerCase();
   - if matches are found, this will return an array
   - the 'g' flag tells the regular expression to not stop after the first match
   - the 'i' flag tells the regular expression to be case-insensitive
+
+---
 
 ## Spiral
 
@@ -114,6 +122,8 @@ word.replace(/[^\w]/g, "").toLowerCase();
     - Increment counter
   - Decrement end column
   - ... repeat for other two sides
+
+---
 
 ## Runtime Complexity
 
@@ -157,6 +167,8 @@ word.replace(/[^\w]/g, "").toLowerCase();
 - Very similar to performance/runtime complexity
 - How much more memory is required by doubling the problem set?
 
+---
+
 ## Fibonacci Series
 
 - Classic interview problem when discussing runtime complexity
@@ -174,6 +186,8 @@ function fib(n) {
 
 - The recursive solution is in exponential time [O(2^n)]
 - Memoization: Store the arguments of each function call along with the result. If the function is called again with the same arguments, return the precomputed result, rather than running the function again
+
+---
 
 ## Data Structures
 
@@ -198,6 +212,8 @@ function fib(n) {
 
 - Use two stacks to create a queue - implement `add()`, `remove()`, and `peek()`
 - Most common interview question with stacks and queues
+
+---
 
 ## Linked Lists
 
